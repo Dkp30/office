@@ -1,0 +1,40 @@
+<Configuration ID="80065fc9-843f-4952-97f9-1ce93e2b07e7">
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2021" Version="16.0.14332.20637">
+    <Product ID="Standard2021Volume" PIDKEY="KDX7X-BNVR8-TXXGX-4Q7Y8-78VT3">
+      <Language ID="en-us" />
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+    <Product ID="VisioStd2021Volume" PIDKEY="MJVNY-BYWPY-CWV6J-2RKRT-4M8QG">
+      <Language ID="en-us" />
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+    <Product ID="ProjectStd2021Volume" PIDKEY="J2JDC-NJCYY-9RGQ4-YXWMH-T3D4T">
+      <Language ID="en-us" />
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="1" />
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
+    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
+    <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
+  </AppSettings>
+</Configuration>
